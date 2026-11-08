@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>CANGRI CAPS | Premium Caps</title>
+
+    <link
+    rel="stylesheet"
+    href="style.css?v=2"
+>
+
+    <!-- FontAwesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+
+    <!-- Favicon -->
+    <link
+        rel="icon"
+        href="images/cangris-icon.png"
+        type="image/png"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-idiomas">
+
+            <button onclick="cambiarIdioma('es')">
+                🇪🇨 ES
+            </button>
+
+            <button onclick="cambiarIdioma('en')">
+                🇺🇸 EN
+            </button>
+
+        </div>
+
+
+        <div class="logo-contenedor">
+
+            <img
+                src="images/cangricaps.jpg"
+                alt="CANGRI CAPS Logo"
+                class="logo-circular"
+            >
+
+        </div>
+
+
+        <div class="nav-derecha">
+
+            <nav
+                class="menu"
+                id="menu-texto"
+            >
+
+                <a
+                    href="#inicio"
+                    data-es="INICIO"
+                    data-en="HOME"
+                >
+                    INICIO
+                </a>
+
+                <a
+                    href="#catalogo"
+                    data-es="CATÁLOGO"
+                    data-en="SHOP"
+                >
+                    CATÁLOGO
+                </a>
+
+                <a
+                    href="#nuevos"
+                    data-es="NUEVOS"
+                    data-en="NEW ARRIVALS"
+                >
+                    NUEVOS
+                </a>
+
+                <a
+                    href="#nosotros"
+                    data-es="NOSOTROS"
+                    data-en="ABOUT"
+                >
+                    NOSOTROS
+                </a>
+
+                <a
+                    href="#contacto"
+                    data-es="CONTACTO"
+                    data-en="CONTACT"
+                >
+                    CONTACTO
+                </a>
+
+            </nav>
+
+
+            <!-- REDES -->
+
+            <div class="redes-sociales">
+
+                <a
+                    href="https://www.facebook.com/profile.php?id=61578336857744"
+                    target="_blank"
+                    title="Facebook"
+                >
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/cangricaps?stkn=cDNzM2l2b25xOHZu"
+                    target="_blank"
+                    title="Instagram"
+                >
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a
+                    href="https://www.tiktok.com/@frantrx"
+                    target="_blank"
+                    title="TikTok"
+                >
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+            </div>
+
+
+            <!-- CARRITO -->
+
+            <button
+                class="carrito-btn"
+                onclick="abrirCarrito()"
+                aria-label="Abrir carrito"
+            >
+
+                <i class="fas fa-shopping-cart"></i>
+
+                <span id="contador-carrito">
+                    0
+                </span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         CONTENIDO PRINCIPAL
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             INICIO
+        ================================================== -->
+
+        <section
+            id="inicio"
+            class="hero"
+        >
+
+            <!-- VIDEO -->
+
+            <video
+                class="hero-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+            >
+
+                <source
+                    src="videos/gorras.mp4"
+                    type="video/mp4"
+                >
+
+            </video>
+
+
+            <!-- CAPA OSCURA -->
+
+            <div class="hero-overlay"></div>
+
+
+            <!-- CONTENIDO -->
+
+            <div class="hero-content">
+
+                <span class="hero-etiqueta">
+
+                    🇺🇸 USA
+                    &nbsp; • &nbsp;
+                    🇪🇨 ECUADOR
+
+                </span>
+
+
+                <h1>
+                    CANGRI CAPS
+                </h1>
+
+
+                <h2
+                    data-es="ESTILO QUE TE REPRESENTA"
+                    data-en="STYLE THAT REPRESENTS YOU"
+                >
+                    ESTILO QUE TE REPRESENTA
+                </h2>
+
+
+                <p
+                    data-es="Descubre nuestra colección de gorras premium, diseños exclusivos y estilo urbano."
+                    data-en="Discover our premium cap collection, exclusive designs and urban style."
+                >
+                    Descubre nuestra colección de gorras premium,
+                    diseños exclusivos y estilo urbano.
+                </p>
+
+
+                <div class="hero-botones">
+
+
+                    <!-- CATÁLOGO -->
+
+                    <a
+                        href="#catalogo"
+                        class="hero-btn hero-btn-principal"
+                    >
+
+                        <i class="fas fa-store"></i>
+
+                        <span
+                            data-es="VER CATÁLOGO"
+                            data-en="VIEW COLLECTION"
+                        >
+                            VER CATÁLOGO
+                        </span>
+
+                    </a>
+
+
+                    <!-- WHATSAPP -->
+
+                    <a
+                        href="https://api.whatsapp.com/send?phone=14753700236&text=Hola%21%20Quiero%20informaci%C3%B3n%20sobre%20Cangri%20Caps"
+                        target="_blank"
+                        class="hero-btn hero-btn-whatsapp"
+                    >
+
+                        <i class="fab fa-whatsapp"></i>
+
+                        <span>
+                            WHATSAPP
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CATÁLOGO
+        ================================================== -->
+
+        <section
+            id="catalogo"
+            class="catalogo"
+        >
+
+            <div class="catalogo-titulo">
+
+                <h2
+                    data-es="CATÁLOGO EXCLUSIVO"
+                    data-en="EXCLUSIVE COLLECTION"
+                >
+                    CATÁLOGO EXCLUSIVO
+                </h2>
+
+
+                <p
+                    data-es="Descubre nuestra colección de gorras de alta calidad"
+                    data-en="Discover our high quality cap collection"
+                >
+                    Descubre nuestra colección de gorras
+                    de alta calidad
+                </p>
+
+            </div>
+
+
+            <!-- JAVASCRIPT CARGA LAS 80 GORRAS -->
+
+            <div
+                id="catalogo-productos"
+                class="catalogo-productos"
+            >
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             NUEVOS INGRESOS
+        ================================================== -->
+
+        <section
+            id="nuevos"
+            class="nuevos-seccion"
+        >
+
+            <div class="nuevos-encabezado">
+
+                <span class="nuevos-etiqueta">
+                    ✨ CANGRI CAPS
+                </span>
+
+
+                <h2
+                    data-es="NUEVOS INGRESOS"
+                    data-en="NEW ARRIVALS"
+                >
+                    NUEVOS INGRESOS
+                </h2>
+
+
+                <p
+                    data-es="Descubre nuestros modelos destacados y las últimas novedades."
+                    data-en="Discover our featured models and latest arrivals."
+                >
+                    Descubre nuestros modelos destacados
+                    y las últimas novedades.
+                </p>
+
+            </div>
+
+
+            <!-- JAVASCRIPT CARGA PRODUCTOS -->
+
+            <div
+                id="nuevos-productos"
+                class="nuevos-productos"
+            >
+            </div>
+
+
+            <div class="nuevos-boton">
+
+                <a
+                    href="#catalogo"
+                    class="hero-btn hero-btn-principal"
+                >
+
+                    <i class="fas fa-store"></i>
+
+                    <span
+                        data-es="VER TODO EL CATÁLOGO"
+                        data-en="VIEW FULL COLLECTION"
+                    >
+                        VER TODO EL CATÁLOGO
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             NOSOTROS
+        ================================================== -->
+
+       <section
+    id="nosotros"
+    class="nosotros-seccion"
+>
+
+    <div class="nosotros-contenido">
+
+        <span class="nosotros-etiqueta">
+            CANGRI CAPS
+        </span>
+
+
+        <h2
+            data-es="SOBRE NOSOTROS"
+            data-en="ABOUT US"
+        >
+            SOBRE NOSOTROS
+        </h2>
+
+
+        <p
+            data-es="Cangri Caps nace con una visión clara: ofrecer gorras con estilo, calidad y diseños que representen la personalidad de cada persona."
+            data-en="Cangri Caps was created with a clear vision: to offer caps with style, quality and designs that represent each person's personality."
+        >
+            Cangri Caps nace con una visión clara:
+            ofrecer gorras con estilo, calidad y diseños
+            que representen la personalidad de cada persona.
+        </p>
+
+
+        <div class="nosotros-pilares">
+
+
+            <!-- CALIDAD -->
+
+            <div class="pilar">
+
+                <i class="fas fa-gem"></i>
+
+                <h3
+                    data-es="Calidad"
+                    data-en="Quality"
+                >
+                    Calidad
+                </h3>
+
+                <p
+                    data-es="Seleccionamos modelos pensando en calidad y estilo."
+                    data-en="We select models with quality and style in mind."
+                >
+                    Seleccionamos modelos pensando
+                    en calidad y estilo.
+                </p>
+
+            </div>
+
+
+            <!-- ESTILO -->
+
+            <div class="pilar">
+
+                <i class="fas fa-star"></i>
+
+                <h3
+                    data-es="Estilo"
+                    data-en="Style"
+                >
+                    Estilo
+                </h3>
+
+                <p
+                    data-es="Diseños para complementar tu estilo urbano."
+                    data-en="Designs to complement your urban style."
+                >
+                    Diseños para complementar
+                    tu estilo urbano.
+                </p>
+
+            </div>
+
+
+            <!-- USA & ECUADOR -->
+
+            <div class="pilar">
+
+                <i class="fas fa-globe-americas"></i>
+
+                <h3
+                    data-es="USA & Ecuador"
+                    data-en="USA & Ecuador"
+                >
+                    USA & Ecuador
+                </h3>
+
+                <p
+                    data-es="Presencia y conexión entre Estados Unidos y Ecuador."
+                    data-en="Presence and connection between the United States and Ecuador."
+                >
+                    Presencia y conexión entre
+                    Estados Unidos y Ecuador.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        <!-- =================================================
+             CONTACTO
+        ================================================== -->
+
+        <section
+            id="contacto"
+            class="contacto-seccion"
+        >
+
+            <div class="contacto-contenido">
+
+                <span class="contacto-etiqueta">
+                    CANGRI CAPS
+                </span>
+
+
+                <h2
+                    data-es="¿HABLAMOS?"
+                    data-en="LET'S TALK?"
+                >
+                    ¿HABLAMOS?
+                </h2>
+
+
+                <p
+                    data-es="¿Tienes preguntas sobre nuestros modelos, disponibilidad o pedidos? Estamos para ayudarte."
+                    data-en="Do you have questions about our models, availability or orders? We're here to help."
+                >
+                    ¿Tienes preguntas sobre nuestros modelos,
+                    disponibilidad o pedidos?
+                    Estamos para ayudarte.
+                </p>
+
+
+                <div class="contacto-opciones">
+
+
+                    <!-- WHATSAPP -->
+
+                    <a
+                        href="https://api.whatsapp.com/send?phone=14753700236&text=Hola%21%20Quiero%20informaci%C3%B3n%20sobre%20Cangri%20Caps"
+                        target="_blank"
+                        class="contacto-card"
+                    >
+
+                        <i class="fab fa-whatsapp"></i>
+
+                        <div>
+
+                            <strong>
+                                WhatsApp
+                            </strong>
+
+                            <span>
+                                Escríbenos directamente
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- INSTAGRAM -->
+
+                    <a
+                        href="https://www.instagram.com/cangricaps?stkn=cDNzM2l2b25xOHZu"
+                        target="_blank"
+                        class="contacto-card"
+                    >
+
+                        <i class="fab fa-instagram"></i>
+
+                        <div>
+
+                            <strong>
+                                Instagram
+                            </strong>
+
+                            <span>
+                                Síguenos en redes
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- FACEBOOK -->
+
+                    <a
+                        href="https://www.facebook.com/profile.php?id=61578336857744"
+                        target="_blank"
+                        class="contacto-card"
+                    >
+
+                        <i class="fab fa-facebook-f"></i>
+
+                        <div>
+
+                            <strong>
+                                Facebook
+                            </strong>
+
+                            <span>
+                                Visita nuestra página
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+   <footer
+    id="footer"
+    class="footer-tienda"
+>
+
+    <h3
+        class="footer-titulo-contacto"
+        data-es="Cangri Caps"
+        data-en="Cangri Caps"
+    >
+        Cangri Caps
+    </h3>
+
+
+    <p class="footer-texto-info">
+        Cangri Caps - Cuenca - Ecuador - Pedidos por WhatsApp
+    </p>
+
+
+    <div class="footer-derechos">
+
+        <p>
+            &copy; 2026 Cangri Caps |
+            Todos los derechos reservados | SYSLINK TI
+        </p>
+
+    </div>
+
+</footer>
+
+
+    <!-- =====================================================
+         MODAL DEL PRODUCTO
+    ====================================================== -->
+
+    <div
+        id="producto-modal"
+        class="producto-modal"
+    >
+
+        <div class="producto-modal-contenido">
+
+
+            <!-- CERRAR -->
+
+            <button
+                class="producto-modal-cerrar"
+                onclick="cerrarProductoModal()"
+                aria-label="Cerrar producto"
+            >
+                &times;
+            </button>
+
+
+            <!-- IMAGEN -->
+
+            <div class="producto-modal-imagen">
+
+                <img
+                    id="modal-producto-imagen"
+                    src=""
+                    alt="Gorra Cangri Caps"
+                >
+
+            </div>
+
+
+            <!-- INFORMACIÓN -->
+
+            <div class="producto-modal-info">
+
+                <span class="modal-etiqueta">
+                    CANGRI CAPS
+                </span>
+
+
+                <h2 id="modal-producto-nombre">
+                    Gorra
+                </h2>
+
+
+                <p id="modal-producto-descripcion">
+                    Cangri Caps Original
+                </p>
+
+
+                <strong id="modal-producto-precio">
+                    $20.00 USD
+                </strong>
+
+
+                <!-- DISPONIBILIDAD -->
+
+                <div
+                    id="modal-disponibilidad"
+                    class="modal-disponibilidad"
+                >
+
+                    <span
+                        id="modal-punto-disponible"
+                        class="punto-disponible"
+                    ></span>
+
+                    <span id="modal-texto-disponibilidad">
+                        Disponible
+                    </span>
+
+                </div>
+
+
+                <!-- BOTONES -->
+
+                <div class="modal-botones">
+
+
+                    <button
+                        id="modal-whatsapp"
+                        class="btn-whatsapp"
+                    >
+
+                        <i class="fab fa-whatsapp"></i>
+
+                        Pedir por WhatsApp
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         CARRITO
+    ====================================================== -->
+
+    <div
+        id="carrito-modal"
+        class="carrito-modal"
+    >
+
+        <div class="carrito-contenido">
+
+
+            <!-- CABECERA -->
+
+            <div class="carrito-header">
+
+                <div>
+
+                    <span class="carrito-etiqueta">
+                        CANGRI CAPS
+                    </span>
+
+                    <h2>
+                        Tu carrito
+                    </h2>
+
+                </div>
+
+
+                <button
+                    class="carrito-cerrar"
+                    onclick="cerrarCarrito()"
+                    aria-label="Cerrar carrito"
+                >
+                    &times;
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTOS -->
+
+            <div
+                id="carrito-productos"
+                class="carrito-productos"
+            >
+
+                <div class="carrito-vacio">
+
+                    <i class="fas fa-shopping-bag"></i>
+
+                    <p>
+                        Tu carrito está vacío
+                    </p>
+
+                    <span>
+                        Agrega una gorra para comenzar.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RESUMEN -->
+
+            <div class="carrito-resumen">
+
+                <div class="carrito-lineas">
+
+
+                    <div class="carrito-linea">
+
+                        <span>
+                            Subtotal
+                        </span>
+
+                        <strong id="carrito-subtotal">
+                            $0.00 USD
+                        </strong>
+
+                    </div>
+
+
+                    <div class="carrito-linea">
+
+                        <span>
+                            Envío
+                        </span>
+
+                        <strong>
+                            Por calcular
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="carrito-total">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="carrito-total">
+                        $0.00 USD
+                    </strong>
+
+                </div>
+
+
+                <!-- FINALIZAR PEDIDO -->
+
+                <button
+                    class="btn-carrito-whatsapp"
+                    onclick="abrirCheckout()"
+                >
+
+                    <i class="fas fa-arrow-right"></i>
+
+                    Finalizar pedido
+
+                </button>
+
+
+                <!-- VACIAR -->
+
+                <button
+                    class="btn-vaciar-carrito"
+                    onclick="vaciarCarrito()"
+                >
+
+                    <i class="fas fa-trash-alt"></i>
+
+                    Vaciar carrito
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         CHECKOUT
+    ====================================================== -->
+
+    <div
+        id="checkout-modal"
+        class="checkout-modal"
+    >
+
+        <div class="checkout-contenido">
+
+
+            <!-- =================================================
+                 CABECERA CHECKOUT
+            ================================================== -->
+
+            <div class="checkout-header">
+
+                <div>
+
+                    <span class="checkout-etiqueta">
+                        CANGRI CAPS
+                    </span>
+
+
+                    <h2>
+                        Finalizar pedido
+                    </h2>
+
+
+                    <p>
+                        Completa tus datos para continuar.
+                    </p>
+
+                </div>
+
+
+                <button
+                    class="checkout-cerrar"
+                    onclick="cerrarCheckout()"
+                    aria-label="Cerrar checkout"
+                >
+                    &times;
+                </button>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 CUERPO CHECKOUT
+            ================================================== -->
+
+            <div class="checkout-cuerpo">
+
+
+                <!-- =============================================
+                     1. DATOS DEL CLIENTE
+                ============================================== -->
+
+                <div class="checkout-seccion">
+
+                    <div class="checkout-titulo">
+
+                        <span class="checkout-numero">
+                            1
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Datos del cliente
+                            </h3>
+
+                            <p>
+                                ¿A quién entregaremos el pedido?
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkout-grid">
+
+
+                        <!-- NOMBRE -->
+
+                        <div class="checkout-campo">
+
+                            <label
+                                for="checkout-nombre"
+                            >
+                                Nombre completo
+                            </label>
+
+                            <input
+                                type="text"
+                                id="checkout-nombre"
+                                placeholder="Tu nombre"
+                                autocomplete="name"
+                            >
+
+                        </div>
+
+
+                        <!-- WHATSAPP -->
+
+                        <div class="checkout-campo">
+
+                            <label
+                                for="checkout-whatsapp"
+                            >
+                                WhatsApp
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="checkout-whatsapp"
+                                placeholder="+1 000 000 0000"
+                                autocomplete="tel"
+                            >
+
+                        </div>
+
+
+                        <!-- CORREO -->
+
+                        <div
+                            class="checkout-campo checkout-campo-completo"
+                        >
+
+                            <label
+                                for="checkout-correo"
+                            >
+                                Correo electrónico
+                            </label>
+
+                            <input
+                                type="email"
+                                id="checkout-correo"
+                                placeholder="tu@email.com"
+                                autocomplete="email"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =============================================
+                     2. DATOS DE ENTREGA
+                ============================================== -->
+
+                <div class="checkout-seccion">
+
+                    <div class="checkout-titulo">
+
+                        <span class="checkout-numero">
+                            2
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Datos de entrega
+                            </h3>
+
+                            <p>
+                                Indica dónde deseas recibir tu pedido.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checkout-grid">
+
+
+                        <!-- PAÍS -->
+
+                        <div class="checkout-campo">
+
+                            <label
+                                for="checkout-pais"
+                            >
+                                País
+                            </label>
+
+                            <select
+                                id="checkout-pais"
+                            >
+
+                                <option value="">
+                                    Selecciona un país
+                                </option>
+
+                                <option value="Estados Unidos">
+                                    Estados Unidos
+                                </option>
+
+                                <option value="Ecuador">
+                                    Ecuador
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- CIUDAD -->
+
+                        <div class="checkout-campo">
+
+                            <label
+                                for="checkout-ciudad"
+                            >
+                                Ciudad
+                            </label>
+
+                            <input
+                                type="text"
+                                id="checkout-ciudad"
+                                placeholder="Ciudad"
+                                autocomplete="address-level2"
+                            >
+
+                        </div>
+
+
+                        <!-- DIRECCIÓN -->
+
+                        <div
+                            class="checkout-campo checkout-campo-completo"
+                        >
+
+                            <label
+                                for="checkout-direccion"
+                            >
+                                Dirección de entrega
+                            </label>
+
+                            <input
+                                type="text"
+                                id="checkout-direccion"
+                                placeholder="Calle, número, referencia..."
+                                autocomplete="street-address"
+                            >
+
+                        </div>
+
+
+                        <!-- OBSERVACIONES -->
+
+                        <div
+                            class="checkout-campo checkout-campo-completo"
+                        >
+
+                            <label
+                                for="checkout-observaciones"
+                            >
+                                Observaciones
+                            </label>
+
+                            <textarea
+                                id="checkout-observaciones"
+                                rows="3"
+                                placeholder="Información adicional para tu pedido..."
+                            ></textarea>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =============================================
+                     3. MÉTODO DE PAGO
+                ============================================== -->
+
+                <div class="checkout-seccion">
+
+                    <div class="checkout-titulo">
+
+                        <span class="checkout-numero">
+                            3
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Método de pago
+                            </h3>
+
+                            <p>
+                                Selecciona cómo deseas realizar el pago.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="metodos-pago">
+
+                        <!-- =====================================
+                             WHATSAPP
+                        ====================================== -->
+
+                        <label class="metodo-pago">
+
+                            <input
+                                type="radio"
+                                name="metodo-pago"
+                                value="whatsapp"
+                                onchange="actualizarMetodoPago()"
+                            >
+
+                            <span class="metodo-pago-contenido">
+
+                                <span class="metodo-pago-icono whatsapp">
+
+                                    <i class="fab fa-whatsapp"></i>
+
+                                </span>
+
+                                <span>
+
+                                    <strong>
+                                        WhatsApp
+                                    </strong>
+
+                                    <span>
+                                        Confirmar pedido por WhatsApp
+                                    </span>
+
+                                </span>
+
+                            </span>
+
+                        </label>
+
+
+
+                        <!-- =====================================
+                             TRANSFERENCIA
+                        ====================================== -->
+
+                        <label class="metodo-pago">
+
+                            <input
+                                type="radio"
+                                name="metodo-pago"
+                                value="transferencia"
+                                onchange="actualizarMetodoPago()"
+                            >
+
+                            <span class="metodo-pago-contenido">
+
+                                <span class="metodo-pago-icono">
+
+                                    <i class="fas fa-university"></i>
+
+                                </span>
+
+                                <span>
+
+                                    <strong>
+                                        Transferencia
+                                    </strong>
+
+                                    <span>
+                                        Transferencia bancaria
+                                    </span>
+
+                                </span>
+
+                            </span>
+
+                        </label>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                         DATOS DE TRANSFERENCIA
+                    ========================================== -->
+
+                    <div
+                        id="transferencia-instrucciones"
+                        class="transferencia-instrucciones"
+                    >
+
+                        <div class="transferencia-encabezado">
+
+                            <span class="transferencia-icono">
+
+                                <i class="fas fa-university"></i>
+
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Datos para transferencia
+                                </strong>
+
+                                <span>
+                                    Realiza la transferencia y envíanos el comprobante.
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="transferencia-datos">
+
+
+                            <div class="transferencia-dato">
+
+                                <span>
+                                    Banco
+                                </span>
+
+                                <strong>
+                                    Por confirmar
+                                </strong>
+
+                            </div>
+
+
+                            <div class="transferencia-dato">
+
+                                <span>
+                                    Cuenta
+                                </span>
+
+                                <strong>
+                                    Por confirmar
+                                </strong>
+
+                            </div>
+
+
+                            <div class="transferencia-dato">
+
+                                <span>
+                                    Titular
+                                </span>
+
+                                <strong>
+                                    CANGRI CAPS
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="transferencia-aviso">
+
+                            <i class="fas fa-info-circle"></i>
+
+                            <span>
+                                Después de realizar la transferencia,
+                                envía el comprobante por WhatsApp
+                                para confirmar tu pedido.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =============================================
+                     4. RESUMEN DEL PEDIDO
+                ============================================== -->
+
+                <div class="checkout-seccion">
+
+                    <div class="checkout-titulo">
+
+                        <span class="checkout-numero">
+                            4
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Resumen del pedido
+                            </h3>
+
+                            <p>
+                                Revisa tu pedido antes de continuar.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- JAVASCRIPT CARGA EL RESUMEN -->
+
+                    <div
+                        id="checkout-resumen"
+                        class="checkout-resumen"
+                    >
+                    </div>
+
+
+                    <!-- TOTAL -->
+
+                    <div class="checkout-total">
+
+                        <span>
+                            Total
+                        </span>
+
+                        <strong id="checkout-total">
+                            $0.00 USD
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FOOTER CHECKOUT
+            ================================================== -->
+
+            <div class="checkout-footer">
+
+
+                <button
+                    class="checkout-volver"
+                    onclick="cerrarCheckout()"
+                >
+
+                    <i class="fas fa-arrow-left"></i>
+
+                    Volver al carrito
+
+                </button>
+
+
+                <button
+                    class="checkout-continuar"
+                    onclick="continuarAlPago()"
+                >
+
+                    Continuar al pago
+
+                    <i class="fas fa-arrow-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         WHATSAPP FLOTANTE
+    ====================================================== -->
+
+    <a
+        href="https://api.whatsapp.com/send?phone=14753700236&text=Hola%21%20Quiero%20informaci%C3%B3n%20sobre%20las%20gorras%20Cangri%20Caps"
+        class="whatsapp-flotante"
+        target="_blank"
+        title="Escríbenos por WhatsApp"
+    >
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+    <!-- =====================================================
+         JAVASCRIPT PRINCIPAL
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
